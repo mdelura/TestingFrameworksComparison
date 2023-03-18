@@ -2,13 +2,13 @@
 
 public class Ledger
 {
-    private int _amount;
+    public int Amount { get; private set; }
 
-    public void Increment(int amount) => _amount += amount;
+    public void Increment(int amount) => Amount += amount;
 
     public async Task<int> CheckCurrentAmmount()
     {
         await Task.Delay(1000);
-        return _amount;
+        return Amount;
     }
 }
