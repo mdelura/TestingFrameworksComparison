@@ -5,6 +5,12 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingFrameworksComparison", "TestingFrameworksComparison\TestingFrameworksComparison.csproj", "{D4E0ACAE-8D18-4B25-B0AE-5FCFAE38F15D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{0A56582D-0F72-43A2-B6B5-063CB5E4B72B}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		readme.md = readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
